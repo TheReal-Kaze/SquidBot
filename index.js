@@ -8,7 +8,7 @@ const Discord = require('discord.js'),
     config = require('./config.json'),
     fs = require('fs')
  
-client.login(config.token)
+client.login(process.env.token)
 client.commands = new Discord.Collection()
  
 fs.readdir('./commands', (err, files) => {
