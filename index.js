@@ -86,21 +86,7 @@ client.on('message', message =>{
   }})
     
 
- client.on('ready', () => {
-
-  const statuses = [
-    ` Squid RP `,
-    `Dev: Kaze`
-   
-  ]
-
-    let i = 0
-  setInterval(() => {
-      client.user.setActivity(statuses[i], {type: 'PLAYING'})
-      i = ++i % statuses.length
-  }, 1e4)
-
- }),
+ 
 
 
 
