@@ -13,6 +13,7 @@ module.exports = {
  
  
         },
-     name: 'vote'
+     name: 'liens
+   '
      
      }
