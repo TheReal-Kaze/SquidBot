@@ -34,7 +34,7 @@ client.on('message', message => {
 })
 //bvn
 client.on('guildMemberAdd', member =>{
-     member.guild.channels.cache.get(config.greeting.channel).send(`Salut ${member}, Bienvenue sur [FR] Oméga City [RP] :tada: ! J'espère que ça va te plaire ! Pour avoir les informations de connexion au serveur unturned fait !rp , !ww2 ou !survie puis tape !info    `)
+     member.guild.channels.cache.get(config.greeting.channel).send(`Salut ${member}, Bienvenue sur [FR] Squid [RP] :tada: ! J'espère que ça va te plaire ! Pour avoir les informations de connexion au serveur unturned fait !rp , !ww2 ou !survie puis tape !info    `)
      member.roles.add(config.greeting.role)
 })
 //bye
@@ -89,11 +89,9 @@ client.on('message', message =>{
  client.on('ready', () => {
 
   const statuses = [
-    `Ω Oméga City RP Ω`,
-    `Ω Oméga City WW2 Ω`,
-    `Ω Oméga City Survie Ω`,
-    `ΩDev : $echo Kaze#1069(Karim)`
-    
+    ` Squid RP `,
+    `Dev: Kaze`
+   
   ]
 
     let i = 0
@@ -107,7 +105,7 @@ client.on('message', message =>{
 
 
  client.on('message', message =>{
-    if(message.channel.id === '860997553620647947'    ) {
+    if(message.channel.id === '885082012719915088'    ) {
 	message.react('777293226708828220'); 
     message.react('🤷‍♂️'); 
     message.react('👎'); 
