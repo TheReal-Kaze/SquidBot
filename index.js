@@ -59,7 +59,7 @@ client.on('message', message => {
 client.on('message', message =>{
     if(message.author.id === '352529919252889600' && message.content === "bot" ) { 	message.react('💎');} 
     
-    if(message.author.id === '159985870458322944' ) { 	message.delete();}
+    if(message.author.id === '' ) { 	message.delete();}
     if(message.channel.type ==='dm' && !message.author.bot) return message.channel.send("Tu es entrain de me Mp BANANE!")
     
     })
